@@ -12,14 +12,14 @@ public class task1_hw{
     
     }
 
-     public static int stackOverFlowError() {
-        int counter = 0;
-        while (true) {
-            counter += 1000000;
-            stackOverFlowError();
-        }
+    //  public static int stackOverFlowError() {
+    //     int counter = 0;
+    //     while (true) {
+    //         counter += 1000000;
+    //         stackOverFlowError();
+    //     }
     
-    }
+    // }
 
     public static int divisionByZero(int a, int b) {
         return a / b;
